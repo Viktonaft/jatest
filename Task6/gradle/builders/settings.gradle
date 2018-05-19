@@ -1,0 +1,3 @@
+rootProject.name = 'CDP_Gradle_Multiproject'
+
+include ":admin", ":services", ":utils", ":web"

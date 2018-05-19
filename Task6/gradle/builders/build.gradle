@@ -1,0 +1,12 @@
+apply plugin: “java”
+apply plugin: “application”
+
+mainClassName = "com.vk.cdp"
+
+jar {
+	manifest.attributes("Main-Class": mainClassName);
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = "1.12"
+}
