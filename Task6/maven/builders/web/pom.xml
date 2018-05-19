@@ -7,6 +7,8 @@
        <version>1.0</version>
    </parent>
    <artifactId>web</artifactId>
+   <groupId>org.vk.cdp</groupId>
+   <packaging>war</packaging>  
    <dependencies>
 		<dependency>
 			<groupId>org.vk.cdp</groupId>
@@ -27,7 +29,7 @@
         </dependency>
 	</dependencies>
     <build>
-        <finalName>admin</finalName>
+        <finalName>web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

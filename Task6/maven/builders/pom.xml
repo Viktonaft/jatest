@@ -6,9 +6,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <version>1.0</version>
   <packaging>pom</packaging>
   <modules>
-      <module>admin</module>
-	  <module>services</module>
-      <module>utils</module>
-	  <module>web</module>
+        <module>admin</module>
+	<module>services</module>
+	<module>utils</module>
+	<module>web</module>
   </modules>
 </project>

@@ -51,7 +51,7 @@
                         <phase>package</phase>
                         <configuration>
                             <packaging>jar</packaging>
-                            <file>../hw6/maven/builders/admin.jar</file>
+                            <file>../admin/target/admin.jar</file>
                         </configuration>
                         <goals>
                             <goal>install-file</goal>
