@@ -1,0 +1,21 @@
+apply plugin: "java"
+
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                   'Implementation-Version': version
+    }
+}
+
+mainClassName = "com.builders.admin"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":services")
+	compile "javax.servlet:javax.servlet-api:3.0.1"
+	testCompile "junit:junit:4.12"
+}
